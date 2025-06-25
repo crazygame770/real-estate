@@ -1,0 +1,5 @@
+com/realestatetool/controller/PropertySearchControllerTest.class
+com/realestatetool/security/JwtUtilTest.class
+com/realestatetool/controller/StorageControllerTest.class
+com/realestatetool/controller/PropertyControllerTest.class
+com/realestatetool/controller/AdminControllerTest.class

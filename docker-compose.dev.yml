@@ -1,0 +1,49 @@
+version: '3.8'
+
+services:
+  # Backend Spring Boot application in development mode
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.dev
+    container_name: real-estate-backend-dev
+    ports:
+      - "8080:8080"
+      - "5005:5005"  # Remote debugging port
+    environment:
+      - SPRING_PROFILES_ACTIVE=dev
+      - JAVA_TOOL_OPTIONS=-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5005
+      - SUPABASE_URL=${SUPABASE_URL}
+      - SUPABASE_ANON_KEY=${SUPABASE_ANON_KEY}
+      - SUPABASE_SERVICE_ROLE_KEY=${SUPABASE_SERVICE_ROLE_KEY}
+    volumes:
+      - ./backend:/app
+      - ~/.m2:/root/.m2
+    restart: unless-stopped
+    networks:
+      - real-estate-network-dev
+
+  # Frontend application with hot-reloading
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend.dev
+    container_name: real-estate-frontend-dev
+    ports:
+      - "5173:5173"  # Vite dev server
+    environment:
+      - VITE_SUPABASE_URL=${SUPABASE_URL}
+      - VITE_SUPABASE_ANON_KEY=${SUPABASE_ANON_KEY}
+      - VITE_MAPBOX_ACCESS_TOKEN=${MAPBOX_ACCESS_TOKEN}
+    volumes:
+      - ./:/app
+      - /app/node_modules
+    restart: unless-stopped
+    depends_on:
+      - backend
+    networks:
+      - real-estate-network-dev
+
+networks:
+  real-estate-network-dev:
+    driver: bridge

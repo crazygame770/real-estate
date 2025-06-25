@@ -1,0 +1,37 @@
+
+// Neighborhood Scores translations
+const neighborhoodScores: Record<string, string> = {
+  "Neighborhood Scores": "Neighborhood Scores",
+  "Walkability": "Walkability",
+  "Safety Index": "Safety Index",
+  "Safety": "Safety",
+  "Education Quality": "Education Quality",
+  "Education": "Education",
+  "Green Spaces": "Green Spaces",
+  "Entertainment": "Entertainment",
+  "Retail Access": "Retail Access",
+  "Retail": "Retail",
+  "Access to public transport and pedestrian-friendly areas": "Access to public transport and pedestrian-friendly areas",
+  "Crime rates and overall security in the area": "Crime rates and overall security in the area",
+  "Proximity to schools and educational facilities": "Proximity to schools and educational facilities",
+  "Parks, gardens, and outdoor recreational areas": "Parks, gardens, and outdoor recreational areas",
+  "Restaurants, cafes, and cultural venues": "Restaurants, cafes, and cultural venues",
+  "Shopping centers and local markets": "Shopping centers and local markets",
+  "Neighborhood Score": "Neighborhood Score",
+  "Region Score": "Region Score",
+  "Region Average": "Region Average",
+  "Athens Average": "Athens Average",
+  "Neighborhood Overview": "Neighborhood Overview",
+  "Comprehensive analysis of": "Comprehensive analysis of",
+  "characteristics and amenities": "characteristics and amenities",
+  "Comprehensive analysis of the area's key characteristics and amenities": "Comprehensive analysis of the area's key characteristics and amenities",
+  "Scores": "Scores",
+  "Comparison with region and Athens averages": "Comparison with region and Athens averages",
+  "Year": "Year",
+  "Property": "Property",
+  "Neighborhood": "Neighborhood",
+  "Region": "Region",
+  "Athens": "Athens",
+};
+
+export default neighborhoodScores;

@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Athens Real Estate Analytics</title>
+    <meta name="description" content="Athens Real Estate Analytics and Property Management" />
+    <meta name="author" content="Athens Real Estate" />
+    <!-- This empty favicon prevents the browser from displaying a default icon -->
+    <link rel="icon" href="data:," />
+    <!-- Preload critical resources -->
+    <link rel="preconnect" href="https://cdn.gpteng.co" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <!-- Essential script tag for Lovable functionality -->
+    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
+    <script type="module" src="/src/main.tsx"></script>
+    <!-- Error handling script -->
+    <script>
+      window.addEventListener('error', function(event) {
+        console.error('Global error caught:', event.error);
+        // Add recovery mechanism for module loading errors
+        if (event.error && event.error.message && 
+            event.error.message.includes('Failed to fetch dynamically imported module')) {
+          console.log('Module loading error detected, attempting recovery...');
+        }
+      });
+    </script>
+  </body>
+</html>

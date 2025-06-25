@@ -1,0 +1,85 @@
+direct connection string
+
+postgresql://postgres:[YOUR-PASSWORD]@db.fyqdmuxxjzitrhmfipgz.supabase.co:5432/postgres
+
+Password :
+
+358989765Et1994!
+
+Maksym Zakablukovskyi 3:46 AM
+O.K.
+
+ET
+Efthymios Tsimpidis 3:46 AM
+Project url :
+
+
+
+https://fyqdmuxxjzitrhmfipgz.supabase.co
+
+anon public key :
+
+
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZ5cWRtdXh4anppdHJobWZpcGd6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Mzk5ODI5ODUsImV4cCI6MjA1NTU1ODk4NX0.oF5q2pqgTvdi2bqmZ4fvaLSUGRLlzNjsQ3geM1_wys0
+
+service role secret :
+
+
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZ5cWRtdXh4anppdHJobWZpcGd6Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTczOTk4Mjk4NSwiZXhwIjoyMDU1NTU4OTg1fQ.zA8f6J9_fWn-nYK0U36tRak3gWQMrY0gbWQzk8PjV9s
+
+JWT secret :
+
+
+
+MjPig06GKr3PnvUruKGKMznDZ+lAevgtfJtmZKnjahAzTkKQeTbfeTa4mLuNBBxPO0wR93zv8Q4XgsEXwmbxfQ==
+
+2 files 
+dfgdfgdfgdfgdfgdfgdfg.PNG
+fdsfsdfsfsd.PNG
+I do not think you need anything else , correct ?
+
+okay now waht is the procedure ?
+
+I have to make an official offer correct ?
+
+Maksym Zakablukovskyi 3:48 AM
+ok
+
+If there is something I need help from you, I will let you know.
+
+ET
+Efthymios Tsimpidis sent an offer
+
+ 3:52 AM
+I want to connect my frontend with the backend . I have issues in the connection . I am using react as the frontend and java spring boot as the backend and supabase as the databse. I want to be connected .
+
+Est. Budget: $150.00
+
+Milestone 1: Full stack project
+
+Amount in escrow: $150.00
+
+View details
+Data-Visualization-Real-Estate-Tool-main (1).rar 
+Data-Visualization-Real-Estate-Tool-main (1).rar
+2 MB
+ok I have made the contract for what is worth .
+
+
+
+If you can deliver it in a couple of days it would be great!!
+
+
+
+Thanks!
+
+Maksym Zakablukovskyi 3:55 AM
+OK, I will start working right now and deliver it asap.
+
+ET
+Efthymios Tsimpidis 3:56 AM
+thanks !!
+
+see ya

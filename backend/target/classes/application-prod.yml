@@ -1,0 +1,42 @@
+spring:
+  profiles: prod
+  web:
+    resources:
+      cache:
+        cachecontrol:
+          max-age: 86400
+          must-revalidate: true
+
+logging:
+  level:
+    com.realestatetool: INFO
+    org.springframework.web: WARN
+    org.springframework.security: WARN
+  file:
+    name: /var/log/real-estate-tool/application.log
+  logback:
+    rollingpolicy:
+      max-file-size: 10MB
+      max-history: 7
+
+server:
+  port: 8080
+  compression:
+    enabled: true
+    mime-types: application/json,application/xml,text/html,text/xml,text/plain
+
+security:
+  headers:
+    content-security-policy: "default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:;"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,prometheus
+  endpoint:
+    health:
+      show-details: never
+  health:
+    db:
+      enabled: true

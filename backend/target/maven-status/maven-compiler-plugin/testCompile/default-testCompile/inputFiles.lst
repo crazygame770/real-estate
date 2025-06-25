@@ -1,0 +1,9 @@
+/home/john/Documents/Data-Visualization-Real-Estate-Tool-main/backend/src/test/java/com/realestatetool/controller/PropertySearchControllerTest.java
+/home/john/Documents/Data-Visualization-Real-Estate-Tool-main/backend/src/test/java/com/realestatetool/controller/AdminControllerTest.java
+/home/john/Documents/Data-Visualization-Real-Estate-Tool-main/backend/src/test/java/com/realestatetool/security/JwtUtilTest.java
+/home/john/Documents/Data-Visualization-Real-Estate-Tool-main/backend/src/test/java/com/realestatetool/controller/StorageControllerTest.java
+/home/john/Documents/Data-Visualization-Real-Estate-Tool-main/backend/src/test/java/com/realestatetool/controller/PropertyControllerTest.java
+/home/john/Documents/Data-Visualization-Real-Estate-Tool-main/backend/src/test/java/com/realestatetool/controller/UserProfileControllerTest.java
+/home/john/Documents/Data-Visualization-Real-Estate-Tool-main/backend/src/test/java/com/realestatetool/service/PropertyServiceTest.java
+/home/john/Documents/Data-Visualization-Real-Estate-Tool-main/backend/src/test/java/com/realestatetool/controller/FavoriteControllerTest.java
+/home/john/Documents/Data-Visualization-Real-Estate-Tool-main/backend/src/test/java/com/realestatetool/controller/NotificationControllerTest.java

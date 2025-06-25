@@ -1,0 +1,36 @@
+
+// General UI translations
+const generalUI: Record<string, string> = {
+  "Yes": "Sí",
+  "No": "No",
+  "Search": "Buscar",
+  "Filter": "Filtrar",
+  "Apply": "Aplicar",
+  "Reset": "Reiniciar",
+  "Save": "Guardar",
+  "Cancel": "Cancelar",
+  "Delete": "Eliminar",
+  "Edit": "Editar",
+  "View": "Ver",
+  "VIEW DETAILS": "VER DETALLES",
+  "Loading...": "Cargando...",
+  "No changes to save": "No hay cambios para guardar",
+  "Updated": "Actualizado",
+  "Failed to load neighborhoods": "Error al cargar vecindarios",
+  "Failed to update neighborhood": "Error al actualizar vecindario",
+  "Selected Areas:": "Áreas Seleccionadas:",
+  "Selected Area:": "Área Seleccionada:",
+  "Select Neighborhood": "Seleccionar Vecindario",
+  "Success": "Éxito",
+  "Error": "Error",
+  "Enter image URL": "Introduzca URL de la imagen",
+  "Uploading image...": "Subiendo imagen...",
+  "Updating...": "Actualizando...",
+  "Uploading...": "Subiendo...",
+  "Creating Account...": "Creando Cuenta...",
+  "Generate Estimates": "Generar Estimaciones",
+  "Price in": "Precio en",
+  "Enter price for": "Introduzca precio para",
+};
+
+export default generalUI;

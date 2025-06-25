@@ -1,0 +1,23 @@
+spring:
+  profiles: dev
+
+server:
+  port: 8080
+
+# Development-specific logging
+logging:
+  level:
+    com.realestatetool: DEBUG
+    org.springframework.web: DEBUG
+    org.springframework.security: INFO
+    reactor.netty.http.client: DEBUG
+
+# Expose all Actuator endpoints in development
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always

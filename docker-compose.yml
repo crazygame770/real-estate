@@ -1,0 +1,37 @@
+version: '3.8'
+
+services:
+  # Backend Spring Boot application
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: real-estate-backend
+    ports:
+      - "8080:8080"
+    environment:
+      - SPRING_PROFILES_ACTIVE=prod
+      - SUPABASE_URL=${SUPABASE_URL}
+      - SUPABASE_ANON_KEY=${SUPABASE_ANON_KEY}
+      - SUPABASE_SERVICE_ROLE_KEY=${SUPABASE_SERVICE_ROLE_KEY}
+    restart: unless-stopped
+    networks:
+      - real-estate-network
+
+  # Frontend application
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    container_name: real-estate-frontend
+    ports:
+      - "80:80"
+    restart: unless-stopped
+    depends_on:
+      - backend
+    networks:
+      - real-estate-network
+
+networks:
+  real-estate-network:
+    driver: bridge

@@ -1,0 +1,36 @@
+
+// Settings translations
+const settings: Record<string, string> = {
+  "Change Username": "Change Username",
+  "Change Password": "Change Password",
+  "Change Email": "Change Email",
+  "Change Phone Number": "Change Phone Number",
+  "Current Username": "Current Username",
+  "Current Email": "Current Email",
+  "Current Phone Number": "Current Phone Number",
+  "New Username": "New Username",
+  "New Email": "New Email",
+  "New Phone Number": "New Phone Number",
+  "New Password": "New Password",
+  "Confirm New Password": "Confirm New Password",
+  "Current Password": "Current Password",
+  "Save Changes": "Save Changes",
+  "Updating...": "Updating...",
+  "Success": "Success",
+  "Error": "Error",
+  "Please enter a valid email address": "Please enter a valid email address",
+  "Please enter your current password": "Please enter your current password",
+  "Passwords do not match": "Passwords do not match",
+  "Current password is incorrect": "Current password is incorrect",
+  "User not authenticated": "User not authenticated",
+  "Username": "Username",
+  "Password": "Password",
+  "Email": "Email",
+  "Phone number": "Phone number",
+  "Administrator": "Administrator",
+  "User": "User",
+  "Current Role": "Current Role",
+  "Logged in as": "Logged in as",
+};
+
+export default settings;
